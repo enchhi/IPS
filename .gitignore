@@ -1,0 +1,17 @@
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+
+coverage/
+TestResults/
+**/logs/
+**/reports/
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
