@@ -1,0 +1,27 @@
+﻿Code Coverage Report - IPS - Industrial Processing System
+===========================================
+
+Line coverage:    94,08%  (318 / 338 linija)
+Branch coverage:  83,33%
+
+Po klasama:
+  IPS.EventLogger                                         100,00%
+  IPS.ExecutionRecord                                     100,00%
+  IPS.Job                                                 95,00%
+  IPS.JobAbortedException                                 100,00%
+  IPS.JobHandle                                           100,00%
+  IPS.ProcessingSystem                                    88,60%
+  IPS.ProcessingSystem/<>c__DisplayClass38_1              100,00%
+  IPS.ProcessingSystem/<RunWithRetries>d__38              94,87%
+  IPS.ProcessingSystem/<WorkerLoop>d__37                  100,00%
+  IPS.JobCompletedEventArgs                               100,00%
+  IPS.JobFailedEventArgs                                  0,00%
+  IPS.ReportGenerator                                     100,00%
+  IPS.SystemConfig                                        100,00%
+  IPS.Processing.IoJob                                    100,00%
+  IPS.Processing.PayloadParser                            86,66%
+  IPS.Processing.PrimeJob                                 100,00%
+
+Generisano komandom:
+  dotnet test --collect:"XPlat Code Coverage"
+
