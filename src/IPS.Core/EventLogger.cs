@@ -20,10 +20,17 @@ public class EventLogger : IDisposable
         var line = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss.fff}] [{status}] {jobId}, {result}";
         return Task.Run(() =>
         {
-            lock (gate)
+            try
             {
-                if (disposed) return;
-                writer.WriteLine(line);
+                lock (gate)
+                {
+                    if (disposed) return;
+                    writer.WriteLine(line);
+                }
+            }
+            catch
+            {
+                // logger ne sme da rusi sistem
             }
         });
     }

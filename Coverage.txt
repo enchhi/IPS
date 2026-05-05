@@ -1,11 +1,11 @@
 ﻿Code Coverage Report - IPS - Industrial Processing System
 ===========================================
 
-Line coverage:    94,08%  (318 / 338 linija)
+Line coverage:    93,62%  (323 / 345 linija)
 Branch coverage:  83,33%
 
 Po klasama:
-  IPS.EventLogger                                         100,00%
+  IPS.EventLogger                                         93,33%
   IPS.ExecutionRecord                                     100,00%
   IPS.Job                                                 95,00%
   IPS.JobAbortedException                                 100,00%
